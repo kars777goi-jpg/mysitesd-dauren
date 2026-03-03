@@ -19,4 +19,4 @@ You can self-host this website by following these steps:
 
 ## License
 
-Made by [Johan](https://johanstick.fr). You can use this project the way you want, including modifying it. Feel free to credit me if you want to!
+Made by [Johan](https://johanstick.fr). You can use this project the way you want, including modifying it. Feel free to credit me if you want to!"# mysitesd-dauren" 
