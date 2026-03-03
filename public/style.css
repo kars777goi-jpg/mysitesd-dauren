@@ -1,17 +1,48 @@
 /* poppins-regular - latin */
 @font-face {
-	font-display: swap;
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 400;
-	src: url('fonts/poppins-v20-latin-regular.woff2') format('woff2');
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/poppins-v20-latin-regular.woff2') format('woff2');
 }
 
 /* poppins-700 - latin */
 @font-face {
-	font-display: swap;
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 700;
-	src: url('fonts/poppins-v20-latin-700.woff2') format('woff2');
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/poppins-v20-latin-700.woff2') format('woff2');
+}
+
+/* Шрифттерді қолдану үшін жалпы стильдер */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Мысалы: Иә және Жоқ батырмалары */
+button.yes {
+    background-color: #4CAF50; /* Жасыл түс */
+    color: white;
+    font-weight: 700; /* Қалың шрифт */
+}
+
+button.no {
+    background-color: #f44336; /* Қызыл түс */
+    color: white;
 }
